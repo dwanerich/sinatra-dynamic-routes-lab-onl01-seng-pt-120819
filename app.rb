@@ -6,8 +6,8 @@ class App < Sinatra::Base
     "#{@user_name}"
   end
   get '/square/:number' do
-    @number = number
-    "#{@number * 2}"
+    @number = number *
+    # "#{@number * 2}"
   end
   
 end
